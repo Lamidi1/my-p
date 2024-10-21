@@ -7,7 +7,7 @@ const Loading = () => {
        
     <div className='  px-36 py-80 flex justify-center '>
 
-  <ColorRing
+  {/* <ColorRing
   visible={true}
   height="80"
   width="80"
@@ -15,7 +15,7 @@ const Loading = () => {
   wrapperStyle={{}}
   wrapperClass="color-ring-wrapper"
   colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
-  />
+  /> */}
     </div>
   
      

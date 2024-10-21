@@ -5,43 +5,45 @@
  import Projects from "./components/Projects";
  import Skills from "./components/Skills";
  import Contact from "./components/Contact";
-
- import Loading from "./components/Loading";
- import { useState,useEffect } from "react";
- import {BrowserRouter,Routes,Route, } from "react-router-dom"
+//  import Loading from "./components/Loading";
+//  import { useState,useEffect } from "react";
+  
+  import { BrowserRouter,Routes,Route } from "react-router-dom"
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-     setTimeout(()=>{
-      setIsLoading(false);
-     },5000)
+  // const [isLoading, setIsLoading] = useState(true);
+  // useEffect(() => {
+  //    setTimeout(()=>{
+  //     setIsLoading(false);
+  //    },5000)
   
-    
-  },)
+  // },)
 
   return (
-   <BrowserRouter>
-  
+    
+    <BrowserRouter>
     <div >
-      <Routes>
-      <Route path='/'element={<Home/>}/>
-      <Route path='/header'element={<Header/>}/>
-      <Route path='/about'element={<About/>}/>
-      <Route path='/projects'element={<Projects/>}/>
-      <Route path='/skills'element={<Skills/>}/>
-      <Route path='/contact'element={<Contact/>}/>
-      {/* <Route path='/loading'element={<Loading/>}/> */}
-      </Routes>
+      
+        {/* {isLoading===true?
+          <Loading/>:
+          <Home/>
+        }
+         */}
+      
+    
+    <Routes>
+
+    <Route  path='/'element={<Home/>}/>
+    <Route  path='/header'element={<Header/>}/>
+    <Route  path='/about'element={<About/>}/>
+    <Route  path='/projects'element={<Projects/>}/>
+    <Route  path='/skills'element={<Skills/>}/>
+    <Route  path='/contact'element={<Contact/>}/>
+
+    </Routes>
     
 
-      {isLoading===true?
-        <Loading/>:
-        <Home/>
-       }
-       
      
-
     </div>
     </BrowserRouter>
   );
