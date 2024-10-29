@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     
-     <header className='bg-gold shadow-md h-16 bg-slate-100 dark:bg-slate-700 flex justify-between items-center tablet:py-5 sticky top-0'>
+     <header className='bg-gold shadow-md h-16 bg-slate-100 dark:bg-slate-700 flex justify-between items-center tablet:py-5 relative top-0'>
     
     <div className='text-xl text-yellow-700 font-logoFont tablet:text-2xl laptop:text-3xl mt-5'>
      Abass

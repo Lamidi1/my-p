@@ -31,9 +31,10 @@ const Home = () => {
        <div className='flex '>
         <img src={image3} alt='' className=' w-44 h-44  rounded-full tablet:h-52 laptop:w-52 '/>
       </div>
+
       {/* <a href='/lamidi Abass Resume.pdf' download={true} className='mt-3 flex items-center justify-center py-1   w-36 rounded-lg hover:animate-bounce bg-emerald-300'>
         
-        Resume</a> */} 
+        Resume</a> * */}
           
              {/* whatsapp number and Resume link */}
           <div className=' w-full justify-center flex  tablet:flex-row laptop:flex-row space-x-4 mt-12 text-center '>
