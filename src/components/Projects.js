@@ -18,7 +18,7 @@ const Projects = () => {
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/qRdsVmsf/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
       liveLink:"https://",
-      githubLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
     },
     
@@ -29,7 +29,7 @@ const Projects = () => {
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/y8sCxB7W/Screenshot-14-3-2024-112925-127-0-0-1.jpg",
       liveLink:"https://",
-      githubLink: "https://github.com/Lamidi1/event-application",
+      codeLink: "https://github.com/Lamidi1/event-application",
       
     },
     
@@ -39,7 +39,7 @@ const Projects = () => {
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "",
       liveLink:"https://",
-      githubLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
     },
     
@@ -49,7 +49,7 @@ const Projects = () => {
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/k4vrzTgR/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
       liveLink:"https://",
-      githubLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
     },
     
@@ -59,7 +59,7 @@ const Projects = () => {
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/k4vrzTgR/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
       liveLink:"https://",
-      githubLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
     },
     
@@ -75,10 +75,10 @@ const Projects = () => {
      <h2 className='text-4xl font-bold inline border-b-4 b-gray-500 uppercase text-red-500 '>My Projects</h2>
      <p className='mt-5 capitalize'>These are some of my work</p>
       
-      <div className='grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-8 pt-5 '>
+      <div  className=' grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-8 pt-5 duration-200 ease-in-out hover:text-lime-300'>
 
       {projects.map((project, index) => (
-       <div key={index} className='bg-white shadow-lg rounded-lg overflow-hidden '>
+       <div key={index} className='bg-orange-50 shadow-lg rounded-lg overflow-hidden card '>
            <img
                 src={project.imageUrl}
                 alt={project.title}

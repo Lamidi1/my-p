@@ -4,10 +4,16 @@
 @tailwind utilities;
 
 body{
-    background-color:rgb(221, 198, 183)
-    
+    background-color: rgb(221, 198, 183);
+    margin:0;
+    padding:0;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
 }
 
+.card{
+    transition-timing-function:ease-in-out;
+}
 
 * {
    scroll-behaviour:smooth;

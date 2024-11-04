@@ -18,7 +18,7 @@ const Header = () => {
     
      <header className='bg-gold shadow-md h-16 bg-slate-100 dark:bg-slate-700 flex justify-between items-center tablet:py-5 relative top-0'>
     
-    <div className='text-xl text-yellow-700 font-logoFont tablet:text-2xl laptop:text-3xl mt-5'>
+    <div className='text-xl text-yellow-700 font-logoFont tablet:text-2xl laptop:text-3xl mt-5 '>
      Abass
     </div>
         
@@ -64,11 +64,11 @@ const Header = () => {
 
         {showMenuList ? (
           <ul className='w-screen h-[90vh]  py-10 flex flex-col items-center bg-[#dfddddcb] rounded-b-lg shadow-md shadow-black fixed right-0 top-[10vh] z-20'>
-           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/'>Home</Link> </li>
-           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/about'>About</Link> </li>
-           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/projects'>Projects</Link> </li>
-           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/skills'>Skills</Link> </li>
-           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/contact'>Contact</Link> </li>
+           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/'onClick={()=>{setShowMenuList(false)}}>Home</Link> </li>
+           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/about'onClick={()=>{setShowMenuList(false)}}>About</Link> </li>
+           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/projects'onClick={()=>{setShowMenuList(false)}}>Projects</Link> </li>
+           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/skills'onClick={()=>{setShowMenuList(false)}}>Skills</Link> </li>
+           <li className='text-xl my-3 px-5 font-bold hover:border-r-2 hover:border-b-2 hover:shadow-md rounded-md'><Link to='/contact'onClick={()=>{setShowMenuList(false)}}>Contact</Link> </li>
 
           </ul>
     

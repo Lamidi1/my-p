@@ -14,7 +14,7 @@ const Home = () => {
 
    <section className='min-h-screen flex flex-col justify-start items-center text-center p-24'>
        <h1 className='text-red-500 text-5xl font-bold uppercase'>LAMIDI ABASS</h1>
-        <h2 className='text-xl py-3'>Full Stack Developer</h2>
+        <h2 className='text-xl py-3 font-logoFont'>Full Stack Developer</h2>
            
 
 <ul className='flex justify-between space-x-5 py-2 tablet:py-4 laptop:w-1/3 rounded-full'>
