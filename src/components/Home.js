@@ -1,10 +1,11 @@
 import React from 'react'
-// import image1 from '../images/image1.jpg'
+
  import image3 from '../images/image3.jpg'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 // import { FaInstagram } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import Header from './Header';
+
 const Home = () => {
 
   return (
@@ -12,7 +13,7 @@ const Home = () => {
 
      <Header/>
 
-   <section className='min-h-screen flex flex-col justify-start items-center text-center p-24'>
+   <section className='min-h-screen flex flex-col justify-start items-center text-center p-24' id='Home'>
        <h1 className='text-red-500 text-5xl font-bold uppercase'>LAMIDI ABASS</h1>
         <h2 className='text-xl py-3 font-logoFont'>Full Stack Developer</h2>
            

@@ -5,8 +5,8 @@
  import Projects from "./components/Projects";
  import Skills from "./components/Skills";
  import Contact from "./components/Contact";
-//  import Loading from "./components/Loading";
-//  import { useState,useEffect } from "react";
+  // import Loading from "./components/Loading";
+  // import { useState,useEffect } from "react";
   
   import { BrowserRouter,Routes,Route } from "react-router-dom"
 

@@ -34,10 +34,10 @@ const Projects = () => {
     },
     
     {
-      title: " simple calculator",
+      title: " My portfolio",
       description: "This app was build to calculator mordern way",
        technologies: ["Html", "JavaScript", "CSS"],
-      imageUrl: "",
+      imageUrl: "https://i.postimg.cc/1XqddDxR/Screenshot-5-11-2024-11338-localhost.jpg",
       liveLink:"https://",
       codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
@@ -78,7 +78,7 @@ const Projects = () => {
       <div  className=' grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-8 pt-5 duration-200 ease-in-out hover:text-lime-300'>
 
       {projects.map((project, index) => (
-       <div key={index} className='bg-orange-50 shadow-lg rounded-lg overflow-hidden card '>
+       <div key={index} className=' bg-green-300 shadow-lg rounded-lg overflow-hidden' id='card'>
            <img
                 src={project.imageUrl}
                 alt={project.title}

@@ -46,9 +46,9 @@ const Header = () => {
             
             {/* Navigation styling */}
      <ul className='  mt-5  hidden tablet:flex desktop:flex'>
-        <li className='mr-4 px-3 hover:text-emerald-400'><Link to='/'>Home</Link> </li>
+        <li className='mr-4 px-3 hover:text-emerald-400  '><Link to='/'>Home</Link> </li>
 
-        <li className='mr-4 px-3'><Link to='/about'>About</Link></li>
+        <li className='mr-4 px-3 '><Link to='/about'>About</Link></li>
 
         <li className='mr-4 px-3'><Link to='/projects'>Projects</Link></li>
 

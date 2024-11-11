@@ -1,11 +1,11 @@
 import React from 'react'
-import { ColorRing } from 'react-loader-spinner'
+// import { ColorRing } from 'react-loader-spinner'
 
-const Loading = () => {
+// const Loading = () => {
  
-  return (
+  // return (
        
-    <div className='  px-36 py-80 flex justify-center '>
+  //   <div className='  px-36 py-80 flex justify-center '>
 
   {/* <ColorRing
   visible={true}
@@ -16,11 +16,11 @@ const Loading = () => {
   wrapperClass="color-ring-wrapper"
   colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
   /> */}
-    </div>
+//     </div>
   
      
       
-  )
-}
+//   )
+// }
 
-export default Loading
+// export default Loading
