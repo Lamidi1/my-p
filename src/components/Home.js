@@ -40,7 +40,7 @@ const Home = () => {
              {/* whatsapp number and Resume link */}
           <div className=' w-full justify-center flex  tablet:flex-row laptop:flex-row space-x-4 mt-12 text-center '>
           <a className='w-52 h-8 rounded-full bg-gradient-to-tr from bg-emerald-100 pt-2' href='https://wa.me/+2347052599192'>Hire Me!</a>
-          <a className='w-52 h-8 rounded-full bg-gradient-to-tr from bg-emerald-100 pt-2' href='/ Abass Resume.pdf' download={true}>Resume</a>
+          <a className='w-52 h-8 rounded-full bg-gradient-to-tr from bg-emerald-100 pt-2' href='/ Abass Resume.pdf' download="Abass Resume.pdf">Resume</a>
           </div>
 
     </section>

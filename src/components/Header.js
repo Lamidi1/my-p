@@ -58,9 +58,13 @@ const Header = () => {
         <li className='mr-4 px-3'> <Link to='/contact'>Contact</Link> </li>
        </ul>
       
-       <a href='/Abass Resume.pdf' download={true} className='mt-5  items-center justify-center py-1  w-32  rounded-sm  bg-emerald-300 hidden tablet:block laptop:block'>
+       {/* <a href='/Abass Resume.pdf' download={true} className='mt-5  items-center justify-center py-1  w-32  rounded-sm  bg-emerald-300 hidden tablet:block laptop:block'>
         
-        Resume</a> 
+        Resume</a>  */}
+       {/* <a href='/resume.pdf' download='Abass Resume.pdf' className='mt-5  items-center justify-center py-1  w-32  rounded-sm  bg-emerald-300 hidden tablet:block laptop:block'>
+        
+        Resume</a>  */} 
+
 
 
         {showMenuList ? (
