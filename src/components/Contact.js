@@ -7,7 +7,7 @@ const Contact = () => {
      <h2 className="text-center text-3xl font-bold uppercase text-red-500">Get in Touch</h2>
        <p className='mt-1 text-center text-sm  capitalize font-logoFont'>Want to work with me let's connect?<br></br> i am open to full-time part-time Remote$Hybrid</p>
       
-      <form className='mt-8 space-y-6 ' id='form'>
+      <form className='mt-8 space-y-6       ' id='form'>
       <div className='rounded-md shadow-sm -space-y-px'>
       <div className=' '>
               <label htmlFor="name" className="">Name:</label>
@@ -45,7 +45,7 @@ const Contact = () => {
             <div className=''>
             <button
               type="submit"
-              className="  mt-5  hover:ease-in-out w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="  mt-5  hover:ease-in-out w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 animate-in fade-in zoom-in slide-in-from-top slide-in-from-left"
             >
               Submit
             </button>

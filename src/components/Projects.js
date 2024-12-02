@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: " simple calculator",
-      description: "This app was build to calculator mordern way",
+      description: "This app was built for simplicity and advanced functionality while adapting to a variety of user needs.",
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/qRdsVmsf/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
       liveLink:"https://",
@@ -23,43 +23,43 @@ const Projects = () => {
     },
     
     {
-      title: " Event application",
+      title: " Stop watch",
       // name: "Simple calculator",
-      description: "A full-stack app in which users can apply for event online from different location and venue",
+      description: "A stopwatch app built to help user to track time precisely,or study sessions",
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/y8sCxB7W/Screenshot-14-3-2024-112925-127-0-0-1.jpg",
       liveLink:"https://",
-      codeLink: "https://github.com/Lamidi1/event-application",
+      codeLink: "https://github.com/Lamidi1/StopWatch",
       
     },
     
     {
       title: " My portfolio",
-      description: "This app was build to calculator mordern way",
+      description: "This portfolio app was built to show what i have done so far",
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/1XqddDxR/Screenshot-5-11-2024-11338-localhost.jpg",
-      liveLink:"https://",
+      liveLink:"https://abassportfolio.vercel.app/",
       codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
     },
     
     {
-      title: " simple calculator",
+      title: " ",
       description: "This app was build to calculator mordern way",
        technologies: ["Html", "JavaScript", "CSS"],
-      imageUrl: "https://i.postimg.cc/k4vrzTgR/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
+      imageUrl: "https://",
       liveLink:"https://",
-      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://",
       
     },
     
     {
-      title: " simple calculator",
+      title: " ",
       description: "This app was build to calculator mordern way",
        technologies: ["Html", "JavaScript", "CSS"],
-      imageUrl: "https://i.postimg.cc/k4vrzTgR/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
+      imageUrl: "https://",
       liveLink:"https://",
-      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://",
       
     },
     
@@ -78,7 +78,7 @@ const Projects = () => {
       <div  className=' grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-8 pt-5 duration-200 ease-in-out hover:text-lime-300'>
 
       {projects.map((project, index) => (
-       <div key={index} className=' bg-green-300 shadow-lg rounded-lg overflow-hidden' id='card'>
+       <div key={index} className=' bg-green-300 shadow-lg rounded-lg overflow-hidden ' id='card'>
            <img
                 src={project.imageUrl}
                 alt={project.title}

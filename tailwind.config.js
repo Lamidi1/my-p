@@ -8,10 +8,8 @@ module.exports = {
     screens: {
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }
-
       'laptop': '1024px',
       // => @media (min-width: 1024px) { ... }
-
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
@@ -23,8 +21,24 @@ module.exports = {
       textFont:['Rubik', 'sans-serif'],
       myName:['Russo One', 'sans-serif']
     },
-
   },
-  plugins: [],
+
+  keyframes:{
+   wiggle:{
+    "0%, 100%":{transform:'rotate(-9deg)'},
+     "50% ": {transform: 'rotate(-9deg)'},
+   },
+  } ,
+
+  plugins: [require ("tailwindcss-animate")],
+  animationIterationCount: {
+    '2': '2',
+  },
+
+
+  animationDirection: {
+    'normal-reverse': 'normal, reverse',
+  },
+
 }
 

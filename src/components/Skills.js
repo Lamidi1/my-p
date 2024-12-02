@@ -6,9 +6,9 @@ const Skills = () => {
   return (
     <section className='px-4 py-4 text-center mt-12 ' id='skills'>
       <h2 className='font-bold inline border-b-4 b-gray-500 text-4xl text-red-500 uppercase '>My Skills</h2>
-            <p className='mt-5 font-logoFont px-2'>These are the technologies i have work on !</p>
+            <p className='mt-5 font-logoFont px-2 '>These are the technologies i have work on !</p>
 
-            <div className='justify-items-center  grid grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-4 cursor-pointer tablet:mx-auto laptop:mx-auto space-x-1 '>
+            <div className='justify-items-center  grid grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-4 cursor-pointer tablet:mx-auto laptop:mx-10 space-x-1 animate-spin repeat-0 tablet:repeat-1 laptop:repeat-1 delay-100'>
          
               <div className='h-16 w-16 mt-20'>
             <img className='mt ' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg " alt='skills' />

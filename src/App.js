@@ -5,7 +5,7 @@
  import Projects from "./components/Projects";
  import Skills from "./components/Skills";
  import Contact from "./components/Contact";
-//  import Footer from "./components/footer";
+ import Footer from "./components/Footer";
   // import Loading from "./components/Loading";
   // import { useState,useEffect } from "react";
   
@@ -23,6 +23,7 @@ function App() {
   return (
     
     <BrowserRouter>
+<Footer/>
     <div >
       
         {/* {isLoading===true?
@@ -41,9 +42,8 @@ function App() {
     <Route  path='/contact'element={<Contact/>}/>
     </Routes>
     
-
-     
     </div>
+
     </BrowserRouter>
   );
 }
