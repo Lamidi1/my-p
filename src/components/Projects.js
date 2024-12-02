@@ -37,9 +37,9 @@ const Projects = () => {
       title: " My portfolio",
       description: "This portfolio app was built to show what i have done so far",
        technologies: ["Html", "JavaScript", "CSS"],
-      imageUrl: "https://i.postimg.cc/1XqddDxR/Screenshot-5-11-2024-11338-localhost.jpg",
+      imageUrl: "https://postimg.cc/5jtTHTFd",
       liveLink:"https://abassportfolio.vercel.app/",
-      codeLink: "https://github.com/Lamidi1/My-simple-calculator",
+      codeLink: "https://github.com/Lamidi1/my-p",
       
     },
     
@@ -63,9 +63,7 @@ const Projects = () => {
       
     },
     
-    
-
-
+  
 
   ]
        
@@ -75,7 +73,7 @@ const Projects = () => {
      <h2 className='text-4xl font-bold inline border-b-4 b-gray-500 uppercase text-red-500 '>My Projects</h2>
      <p className='mt-5 capitalize'>These are some of my work</p>
       
-      <div  className=' grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-8 pt-5 duration-200 ease-in-out hover:text-lime-300'>
+      <div  className=' grid grid-cols-1 tablet:grid-cols-3 laptop:grid-cols-3 gap-8 pt-5 duration-200 ease-in-out hover:text-lime-300'>
 
       {projects.map((project, index) => (
        <div key={index} className=' bg-green-300 shadow-lg rounded-lg overflow-hidden ' id='card'>
