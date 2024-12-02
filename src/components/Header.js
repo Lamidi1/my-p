@@ -48,18 +48,19 @@ const Header = () => {
      <ul className='  mt-5  hidden tablet:flex desktop:flex'>
         <li className='mr-4 px-3 hover:text-emerald-400  '><Link to='/'>Home</Link> </li>
 
-        <li className='mr-4 px-3 '><Link to='/about'>bout</Link></li>
+        <li className='mr-4 px-3 '><Link to='/about'>About</Link></li>
 
         <li className='mr-4 px-3'><Link to='/projects'>Projects</Link></li>
+
 
         <li className='mr-4 px-3'> <Link to='/skills'>Skills</Link> </li>
 
         <li className='mr-4 px-3'> <Link to='/contact'>Contact</Link> </li>
        </ul>
       
-       {/* <a href='/lamidi Abass Resume.pdf' download={true} className='mt-5  items-center justify-center py-1  w-32  rounded-sm  bg-emerald-300 hidden tablet:block laptop:block'>
+       <a href='/Abass Resume.pdf' download={true} className='mt-5  items-center justify-center py-1  w-32  rounded-sm  bg-emerald-300 hidden tablet:block laptop:block'>
         
-        Resume</a> */}
+        Resume</a> 
 
 
         {showMenuList ? (
