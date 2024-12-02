@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 // import { useState,useEffect } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 
 function App() {
   // const [isLoading, setIsLoading] = useState(true);
@@ -24,6 +24,8 @@ function App() {
   return (
     <BrowserRouter>
       <Footer />
+
+      
 
       <div>
         {/* {isLoading===true?
