@@ -6,17 +6,18 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
-// import Loading from "./components/Loading";
-// import { useState,useEffect } from "react";
+
+ import { useState,useEffect } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
 
+
 function App() {
-  // const [isLoading, setIsLoading] = useState(true);
+  // const [Loading, setLoading] = useState(true);
   // useEffect(() => {
   //    setTimeout(()=>{
-  //     setIsLoading(false);
+  //     setLoading(false);
   //    },5000)
 
   // },)
@@ -24,15 +25,14 @@ function App() {
   return (
     <BrowserRouter>
       <Footer />
-
+  
+      {/* <Loading/> */}
       
 
       <div>
-        {/* {isLoading===true?
-          <Loading/>:
-          <Home/>
-        }
-         */}
+      
+        
+         
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -42,6 +42,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
       </div>
     </BrowserRouter>
   );

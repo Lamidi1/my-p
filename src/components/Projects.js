@@ -8,7 +8,7 @@ const Projects = () => {
       description: "This is a Todoapp that enable users to perform their task and activities.",
        imageUrl:"https://i.postimg.cc/LXvyVWHx/Screenshot-11-3-2024-11016-127-0-0-1.jpg",
        technologies: ["Html", "JavaScript", "CSS"],
-      LiveLink:"https://",
+      LiveLink:"https://lamidi1.github.io/Todo-App/",
       codeLink: "https://github.com/Lamidi1/My-Todolist",
       
     },
@@ -17,7 +17,7 @@ const Projects = () => {
       description: "This app was built for simplicity and advanced functionality while adapting to a variety of user needs.",
        technologies: ["Html", "JavaScript", "CSS"],
       imageUrl: "https://i.postimg.cc/qRdsVmsf/Screenshot-3-3-2024-155632-127-0-0-1.jpg",
-      liveLink:"https://",
+      liveLink:"https://my-simple-calculator-gules.vercel.app/",
       codeLink: "https://github.com/Lamidi1/My-simple-calculator",
       
     },
@@ -37,7 +37,7 @@ const Projects = () => {
       title: " My portfolio",
       description: "This portfolio app was built to show what i have done so far",
        technologies: ["Html", "JavaScript", "CSS"],
-      imageUrl: "https://postimg.cc/5jtTHTFd",
+      imageUrl: "https://i.postimg.cc/gJCnVZs5/Screenshot-29-12-2024-191538-172-23-208-1.jpg",
       liveLink:"https://abassportfolio.vercel.app/",
       codeLink: "https://github.com/Lamidi1/my-p",
       

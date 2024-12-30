@@ -5,7 +5,7 @@ const Footer = () => {
     
   return (
     
-    <footer className='bg-gray-700 text-white  w-full fixed -bottom-0'>
+    <footer className='bg-gray-700 text-white  w-full fixed -bottom-0 mt-6'>
      
            <div className="flex flex-wrap justify-center text-xs gap-4">
            <li className='mr-4 px-3 hover:underline list-none '><Link to='/'>Home</Link></li>

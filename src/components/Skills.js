@@ -8,7 +8,7 @@ const Skills = () => {
       <h2 className='font-bold inline border-b-4 b-gray-500 text-4xl text-red-500 uppercase '>My Skills</h2>
             <p className='mt-5 font-logoFont px-2 '>These are the technologies i have work on !</p>
 
-            <div className='justify-items-center  grid grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-4 cursor-pointer tablet:mx-auto laptop:mx-10 space-x-1 animate-spin repeat-0 tablet:repeat-1 laptop:repeat-1 delay-100'>
+            <div className='justify-items-center  grid grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-4 cursor-pointer tablet:mx-10 laptop:mx-10 space-x-1 animate-spin repeat-0 tablet:repeat-1 laptop:repeat-1 delay-100'>
          
               <div className='h-16 w-16 mt-20'>
             <img className='mt ' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg " alt='skills' />
@@ -20,12 +20,13 @@ const Skills = () => {
                  <p className='font-logoFont'>CSS</p>
 
               </div>
+
               <div className='h-16 w-16 mt-20 '>
-              
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
-                 <p className='font-logoFont'>JAVASCRPT</p>
+                 <p className='font-logoFont '>JAVASCRPT</p>
 
               </div>
+
               <div className='h-16 w-16 mt-20 '>
             
                 <img className='' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
